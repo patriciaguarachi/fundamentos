@@ -1,0 +1,28 @@
+//DiscriminanteCuadratica.cpp : Defines the entry point for the conosle application .
+//
+
+
+
+
+
+#include “stdaf.xh”
+#include “conio.h”
+#include<iostream>
+
+using namespace std;
+
+void main ()
+{
+
+float  a , b,  c, disc ;
+cout<<”ingrese a”;
+cin>>a;
+cout<<”ingrese b:”;
+cin>>b;
+cout<<”ingrese c:”;
+cin>>c;
+disc=sqrt((pow(b,2))-(4*a*c));
+cout<<”el disc es:”<<disc;
+cout<<endl;
+_getch ();
+}    
