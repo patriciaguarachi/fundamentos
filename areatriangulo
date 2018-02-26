@@ -1,0 +1,21 @@
+//AreaTrianguloRectangulo.cpp : Defines  the entry point for the console application.
+//
+
+#include “stdaf.xh”
+#include “conio.h”
+#include<iostream>
+
+using namespace std;
+
+void main()
+{
+float  area, base, altura;
+cout<<”ingrese la base”;
+cin>>base;
+cout<<”ingrese la altura”;
+cin>>altura;
+area=(base*altura)/2;
+cout<<”el area del triangulo es:”<<area;
+cout<<endl;
+_getch ();
+}
