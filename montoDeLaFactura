@@ -1,0 +1,21 @@
+//MontoDeLaFactura.cpp : Defines the entry point for the conosle application . 
+//
+
+
+
+#include “stdaf.xh”
+#include “conio.h”
+#include<iostream>
+
+using namespace std;
+
+void main ()
+{
+float monto , factura;
+cout<<”ingrese el monto”;
+cin>>monto;
+factura= monto*0.13;
+cout<<”la factura es:”<<factura;
+cout<<endl;
+_getch ();
+}
