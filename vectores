@@ -1,0 +1,31 @@
+#include "stdafx.h"
+#include <iostream>
+#include"conio.h"
+#define MAX 100
+
+using namespace std;
+void mostrarvector (double a[], int tam);
+void cargarvector (double a[], int tam);
+double promedio (double a[],int tam);
+void main ()
+{
+	double s [MAX];
+	int n,s;
+	double prom;
+	do
+	{
+		cout<<"ingrese n elementos del vector";
+		cin>>n;
+	}
+	while(n>MAX || n<=0);   //!((n<=MAX)&&(n>0))
+	cargarvector (s,n);
+    prom = promedio(s,n);
+	   for(int i=0;i<=n;i++)
+		   cout<<"dif"<<i<<"i"<<s[i]-prom;
+	   mostrarvector(s,n);
+		   cout<<"el promedio es:"<<prom<<endl;
+	   getch();
+}
+ void cargarvector(double a[],int tam)
+ {for(int i=0;i<=0;i++)
+ cout<<"vector"<<i<<=
