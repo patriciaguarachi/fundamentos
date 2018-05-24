@@ -1,0 +1,23 @@
+#include "stdafx.h"
+#include "conio.h"
+#include <iostream>
+#include "Math.h"
+
+using namespace std;
+
+float raiz( float xa,float xb, float ya,float yb);
+void main()
+{
+float xa,xb,ya,yb;
+float Dab;
+cout<<"ingrse los valores de xa,xb,ya,yb"<<endl;
+cin>>xa>>xb>>ya>>yb;
+
+}
+float raiz( float xa,float xb, float ya,float yb)
+{
+float Dab;
+Dab = sqrt( pow((xa-xb),2) + pow((ya-yb),2));
+return Dab;
+getch();
+}
